@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.headr{
+    height: 190vh;
+    width: 100% auto;
+    background: #92929286;
+}
+.headr h1{
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+    padding: 40px 0;
+}
+.sect{
+    width: 90%;
+    height: 120vh;
+    margin: 0 auto;
+    background: white;
+}
+.input_sect {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input_sect h2{
+    margin: 14px;
+    font-weight: 100;
+    color: #555;
+}
+.input_sect #option{
+    padding: 8px;
+    font-size: 14px;
+}
+.search_sect {
+    margin-right: 20px;
+}
+.search_sect input{
+    padding: 10px 10px;
+}
+.search_sect label{
+    font-size: 20px;
+    font-size: 10;
+    color: #555;
+}
+/* table */
+table{
+    width: 110%;
+    border-collapse: collapse;
+}
+table thead tr{
+    background: rgb(207, 226, 255);
+}
+table thead tr th{
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #555555a5;
+}
+table thead tr th i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+table thead tr th.url{
+    /* transform: translateX(-60%); */
+    padding-right: 100px;
+}
+table thead tr th.urlth{
+    /* transform: translateX(-30%); */
+}
+table tbody tr{
+    background: white;
+}
+table tbody tr td{
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-bottom: 1px solid #55555576;
+    padding: 20px 0;
+}
+table tbody tr td:nth-child(6n){
+    color: #27caac;
+    text-decoration: underline;
+}
+table tbody tr td:nth-child(5n){
+    color: #27caac;
+    text-decoration: underline;
+}
+table tbody tr td:nth-child(7n){
+    text-decoration: underline;
+    color: #27caac;
+}
+table tbody tr{
+    padding: 20px 0;
+}
+table tbody tr button{
+    text-transform: uppercase;
+    background: rgb(13, 110, 253);
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 800;
+}
